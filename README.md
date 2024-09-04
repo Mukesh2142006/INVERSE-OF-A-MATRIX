@@ -20,7 +20,21 @@ End the program
 
 
 ## Program:
-![Screenshot 2024-09-03 181404](https://github.com/user-attachments/assets/b2cd6522-c421-40b1-94cc-213a8d1ab3d7)
+```
+#Program to find the inverse of a matrix.
+#Developed by: MUKESH
+#RegisterNumber:212223230128
+
+import numpy as np
+matrix = np.array([[1, 0, 3], [-1, 2, -2], [2, 3, -1]])
+if np.linalg.det(matrix) == 0:
+    print("The matrix is singular and does not have an inverse.")
+else:
+    inverse_matrix = np.linalg.inv(matrix)
+    print(inverse_matrix)
+
+```
+
 
 ## Output:
 ![Screenshot 2024-09-03 181352](https://github.com/user-attachments/assets/c6d5085a-e1aa-43c7-8537-8c384b0a1918)
